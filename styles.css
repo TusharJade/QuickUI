@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+:root {
+    --header-background: white;
+    --header-text: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* This is header which I will be using everywhere */
+
+.header-icon {
+    font-size: 2rem;
+    padding-right: 0.5rem;
+    color: var(--header-text);
+}
+
+.header {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+    box-shadow: 2px 2px 2px 1px whitesmoke;
+    background-color: var(--header-background);
+}
+
+.header-link {
+    text-decoration: none;
+    padding: 0.1rem 0.5rem;
+    color: var(--header-text);
+}
+
+.header-text {
+    margin-right: auto;
+    font-weight: 400;
+    color: var(--header-text);
+}
+
+.home-section {
+    width: 40%;
+    margin: auto;
+}
+
+.landingpage-heading {
+    font-weight: 600;
+}
+
+.landingpage-para {
+    font-weight: 400;
+    padding: 1rem 0rem;
+}
+
+/* headers styles ends here */
+
+.center-link {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.git-link {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: black;
+    margin: 0.2rem 0.3rem;
+}
+
+.start-link {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.3rem 1rem;
+    color: black;
+    border-radius: 0.5rem;
+    margin: 0.2rem 0.3rem;
+}
