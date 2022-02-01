@@ -1,0 +1,29 @@
+.avatar-image {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.extra-large {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.large {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.medium {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.small {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
