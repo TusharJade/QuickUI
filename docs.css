@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --text-color: black;
+    --header-text: white;
+    --header-background: #1f1f27;
+    --box-shadow: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* This is header I am going to use everywhere */
+
+.header-icon {
+    font-size: 2rem;
+    padding-right: 0.5rem;
+    color: var(--header-text);
+}
+
+.header {
+    display: flex;
+    padding: 0.7rem;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 2px 1px rgb(65, 65, 65);
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    background-color: var(--header-background);
+
+}
+
+.header-link {
+    text-decoration: none;
+    padding: 0.1rem 0.5rem;
+    color: var(--header-text);
+}
+
+.header-text {
+    margin-right: auto;
+    font-weight: 400;
+    color: var(--header-text);
+}
+
+/* Header ends here  */
+
+/* This is navigation I am going to use every where  */
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 10rem;
+    box-shadow: 1px 2px 2px 3px var(--box-shadow);
+    border-bottom-right-radius: 0.5rem;
+    position: fixed;
+    top: 4.36rem;
+}
+
+.nav-link {
+    list-style: none;
+    padding: 1.3rem 0rem;
+
+}
+
+.active {
+    font-weight: 600;
+    border-bottom: 3px solid;
+}
+
+.nav-anchor {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav-anchor:hover {
+    background-color: rgb(238, 238, 238);
+    padding: 0.25rem 1rem;
+    padding-left: 0;
+}
+
+
+/* Nav ends here */
+
+/* This is main container I will be using everywhere */
+.main-container {
+    width: 78%;
+    position: absolute;
+    top: 6rem;
+    left: 14rem;
+    height: max-content;
+    box-shadow: 1px 2px 2px 1px var(--box-shadow);
+    border: 0.1rem solid var(--box-shadow);
+}
+
+.main-heading {
+    padding: 1rem 2rem;
+    font-weight: 600;
+}
+
+.sub-heading {
+    padding: 1rem 3rem;
+    font-weight: 500;
+}
+
+.des-para {
+    padding: 0rem 3rem;
+    font-weight: 300;
+}
+
+.separator {
+    height: 0.15rem;
+    background-color: var(--box-shadow);
+}
+
+/* Main container ends here */
+
+
+/* Avatars extra css starts from here */
+
+
+/*  Avatars extra css ends  */
