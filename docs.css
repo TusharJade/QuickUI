@@ -119,6 +119,12 @@
     background-color: var(--box-shadow);
 }
 
+.iframe {
+    padding: 0rem 3rem;
+    padding-bottom: 2rem;
+    width: 800px;
+}
+
 .bottom-anchor {
     display: none;
 }
@@ -134,19 +140,32 @@
     align-items: center;
 }
 
-.avatar-iframe {
-    padding: 0rem 3rem;
-    padding-bottom: 1.5rem;
-    width: 700px;
-    height: 225px;
-}
 
 .avatar-space {
     margin: 0rem 0.7rem;
 }
 
-
 /*  Avatars extra css ends  */
+
+
+/* Badge extra css */
+
+.badge-space{
+    padding: 0rem 0.7rem;
+}
+
+ .badge-container{
+    display: flex;
+    padding: 1.5rem 3rem;
+} 
+
+.badge-icon-container{
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+}
+
+
+/* badge extra css ends */
 
 
 
@@ -179,13 +198,13 @@
 
     .next {
         margin-left: 10rem;
-    }
+       }
 
     .back {
         margin-left: 3rem;
     }
 
-    .avatar-iframe {
+    .iframe {
         width: auto;
     }
 
