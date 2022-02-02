@@ -1,5 +1,55 @@
 .badge-image{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
 }
+
+.badge-status{
+ border-radius: 50%;
+ width: 14px;
+ height: 14px;
+ position: relative;
+ bottom: 1.3rem;
+ left: 3rem;
+ border: 1.5px solid white;
+}
+
+.online{
+    background-color: green;
+}
+
+.offline{
+    background-color: grey;
+}
+
+.with-num{
+    text-align: center;
+    font-size: 0.6rem;
+    background-color: rgb(255, 38, 0);
+    color: white;
+    font-family: 600;
+}
+
+.badge-icon{
+    font-size: 1.6rem;
+}
+
+.badge-notifi{
+    text-align: center;
+    font-size: 0.6rem;
+    background-color: rgb(255, 38, 0);
+    color: white;
+    width: 14px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    position: relative;
+    bottom: 1.94rem;
+    left: 1.2rem;
+    font-weight: 600;
+}
+
+
+
+
+
