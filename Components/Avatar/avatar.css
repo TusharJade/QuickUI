@@ -5,25 +5,25 @@
 }
 
 .extra-large {
-    width: 8rem;
-    height: 8rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
 }
 
 .large {
-    width: 6rem;
-    height: 6rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
 }
 
 .medium {
-    width: 4rem;
-    height: 4rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
 }
 
 .small {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
 }
