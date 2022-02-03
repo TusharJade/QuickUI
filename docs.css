@@ -183,6 +183,33 @@
 /* button extra ends here */
 
 
+/* img extra css starts*/
+
+.res-img-container {
+    margin: 1rem 3rem;
+    width: 18rem;
+}
+
+/* img extra ends */
+
+
+/* Input extra css */
+
+.input-space{
+    margin-bottom: 1rem;
+  }
+  
+  .iframe-input {
+      padding: 0rem 3rem;
+      width: 800px;
+  }
+  
+  .input-container{
+      margin: 1rem 3rem;
+  }
+
+  /* input extra ends here */
+
 
 
 
@@ -226,6 +253,11 @@
     .CL-button{
        margin: 0.2rem;
     }
+
+    .iframe-input {
+        width: auto;
+    }  
+
 }
 
 /* media queries ends here */
