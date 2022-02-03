@@ -5,7 +5,7 @@
 
 .round-img {
     object-fit: cover;
-    width: 100%;
+    width: 20rem;
     border-radius: 50%;
 }
 
