@@ -150,16 +150,16 @@
 
 /* Badge extra css */
 
-.badge-space{
+.badge-space {
     padding: 0rem 0.7rem;
 }
 
- .badge-container{
+.badge-container {
     display: flex;
     padding: 1.5rem 3rem;
-} 
+}
 
-.badge-icon-container{
+.badge-icon-container {
     padding-left: 4rem;
     padding-top: 0.5rem;
 }
@@ -167,16 +167,16 @@
 /* badge extra css ends */
 
 
-.alert-iframe-top{
+.alert-iframe-top {
     margin-top: 0.3rem;
-} 
+}
 
 /* alert extra ends */
 
 /* button extra starts here */
 
 
-.button-container{
+.button-container {
     padding: 1rem 3rem;
 }
 
@@ -194,20 +194,20 @@
 
 /* Input extra css */
 
-.input-space{
+.input-space {
     margin-bottom: 1rem;
-  }
-  
-  .iframe-input {
-      padding: 0rem 3rem;
-      width: 100%;
-  }
-  
-  .input-container{
-      margin: 1rem 0rem 1rem 3rem;
-  }
+}
 
-  /* input extra ends here */
+.iframe-input {
+    padding: 0rem 3rem;
+    width: 100%;
+}
+
+.input-container {
+    margin: 1rem 0rem 1rem 3rem;
+}
+
+/* input extra ends here */
 
 
 
@@ -239,7 +239,7 @@
 
     .next {
         margin-left: 10rem;
-       }
+    }
 
     .back {
         margin-left: 3rem;
@@ -248,14 +248,14 @@
     .iframe {
         width: auto;
     }
-    
-    .CL-button{
-       margin: 0.2rem;
+
+    .CL-button {
+        margin: 0.2rem;
     }
 
     .iframe-input {
         width: auto;
-    }  
+    }
 
 }
 
