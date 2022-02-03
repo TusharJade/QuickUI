@@ -1,0 +1,32 @@
+.CL-input{
+    padding: 0.4rem 0.7rem;
+    width: 20rem;
+    height: 2.3rem;
+    border: 1.5px solid;
+    border-radius: 0.3rem;
+}
+
+.lab-email{
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.input-info-false{
+    font-size: 0.86rem;
+    font-weight: 700;
+    margin: 0.2rem 0;
+    color: rgb(233, 67, 67);
+}
+
+.input-info-true{
+    font-size: 0.86rem;
+    font-weight: 700;
+    margin: 0.2rem 0;
+    color: rgb(51, 167, 51);
+}
+
+
+
+
