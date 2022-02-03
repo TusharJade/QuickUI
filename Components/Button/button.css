@@ -1,0 +1,114 @@
+.CL-button {
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    cursor: pointer;
+    font-weight: 500
+}
+
+.btn-primary {
+    background-color: #6e6efa;
+    color: white;
+}
+
+.btn-signin {
+    background-color: rgb(89, 194, 89);
+    color: white;
+}
+
+.btn-signout {
+    background-color: rgb(233, 67, 67);
+    color: white;
+}
+
+.btn-login {
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+
+.btn-out-primary {
+    color: #6e6efa;
+    background-color: white;
+}
+
+.btn-out-primary:hover {
+    background-color: #6e6efa;
+    color: white;
+}
+
+.btn-out-signin {
+    color: rgb(89, 194, 89);
+    background-color: white;
+}
+
+.btn-out-signin:hover {
+    background-color: rgb(89, 194, 89);
+    color: white;
+}
+
+.btn-out-signout {
+    color: rgb(233, 67, 67);
+    background-color: white;
+}
+
+.btn-out-signout:hover {
+    background-color: rgb(233, 67, 67);
+    color: white;
+}
+
+.btn-out-login {
+    color: rgb(37, 36, 36);
+    background-color: white;
+}
+
+.btn-out-login:hover {
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+
+.icn-btn-cart {
+    color: white;
+    background-color: #6e6efa;
+}
+
+.icn-btn-delete {
+    color: white;
+    background-color: rgb(233, 67, 67);
+}
+
+.btn-cl-anchor {
+    text-decoration: none;
+    color: white;
+}
+
+.click-cl {
+    background-color: #6e6efa;
+}
+
+.click-coup {
+    background-color: rgb(37, 36, 36);
+}
+
+.floating-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
+
+.float-plus {
+    font-size: 1.5rem;
+    background-color: rgb(89, 194, 89);
+}
+
+.float-tele {
+    font-size: 1.5rem;
+    background-color: #6e6efa;
+}
+
+.floating-btn:hover {
+    width: 3.57rem;
+    height: 3.57rem;
+}
