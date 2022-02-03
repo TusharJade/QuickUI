@@ -164,8 +164,23 @@
     padding-top: 0.5rem;
 }
 
-
 /* badge extra css ends */
+
+
+.alert-iframe-top{
+    margin-top: 0.3rem;
+} 
+
+/* alert extra ends */
+
+/* button extra starts here */
+
+
+.button-container{
+    padding: 1rem 3rem;
+}
+
+/* button extra ends here */
 
 
 
@@ -207,7 +222,10 @@
     .iframe {
         width: auto;
     }
-
+    
+    .CL-button{
+       margin: 0.2rem;
+    }
 }
 
 /* media queries ends here */

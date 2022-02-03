@@ -4,25 +4,25 @@
     border-radius: 50%;
 }
 
-.extra-large {
+.extra-large-avatar {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
 }
 
-.large {
+.large-avatar {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
 }
 
-.medium {
+.medium-avatar {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
 }
 
-.small {
+.small-avatar {
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;

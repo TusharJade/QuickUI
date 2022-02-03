@@ -1,0 +1,63 @@
+:root {
+    --primary-alert: #6e6efa;
+    --warning-alert: #f8af41;
+    --success-alert: rgb(89, 194, 89);
+    --danger-alert: rgb(233, 67, 67);
+}
+
+
+.alert {
+    font-weight: 500;
+    font-size: 0.88rem;
+    color: white;
+    padding: 0.78rem;
+    margin: 1rem 3rem;
+    border-radius: 0.3rem;
+    width: max-content;
+}
+
+.alert-Primary {
+    background-color: var(--primary-alert);
+}
+
+.alert-Warning {
+    background-color: var(--warning-alert);
+}
+
+.alert-Success {
+    background-color: var(--success-alert);
+}
+
+.alert-Danger {
+    background-color: var(--danger-alert);
+}
+
+
+.outline-alert {
+    padding: 0.78rem;
+    margin: 1rem 3rem;
+    border-radius: 0.3rem;
+    width: max-content;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.out-primary {
+    color: var(--primary-alert);
+    border: 1.5px solid var(--primary-alert);
+}
+
+.out-warning {
+    color: var(--warning-alert);
+    border: 1.5px solid var(--warning-alert);
+}
+
+.out-success {
+    color: var(--success-alert);
+    border: 1.5px solid;
+}
+
+.out-danger {
+    color: var(--danger-alert);
+    border: 1.5px solid var(--danger-alert);
+}
