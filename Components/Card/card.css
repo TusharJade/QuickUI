@@ -8,9 +8,9 @@
 .card-container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    position: relative;
     width: 11rem;
-    height: 19.4rem;
+    height: 19.8rem;
     box-shadow: 1px 2px 5px 1px rgb(196, 196, 196);
     background-color: var(--white-text-color) ;
 }
@@ -73,10 +73,10 @@
 .card-add-btn{
     font-size: 0.84rem;
     font-weight: 400;
-    margin: 0.8rem 0.55rem 0.45rem 0.55rem;
+    margin: 0.9rem 0.55rem 0.45rem 0.55rem;
     background-color: #002A46;
     color: var(--white-text-color) ;   
-    padding: 0.4rem 0rem;
+    padding: 0.4rem 2rem;
     border-radius:0.3rem;
     text-align: center;
     border: 0;
@@ -89,9 +89,9 @@
 
 .card-wishlist{
     font-size: 0.9rem;
-    position: relative;
-    top: 8rem;
-    right: 2rem;
+    position: absolute;
+    bottom: 8.66rem;
+    left: 8.93rem;
     color: var(--white-text-color) ;
     padding: 0.25rem;
     background-color:  #fed7d7;
@@ -109,9 +109,8 @@
     background-color: #002A46;
     color: var(--white-text-color) ;
     padding: 0.1rem 0.2rem;
-    position: relative;
-    top: 1.3rem;
-    right: 11rem;
+    position: absolute;
+    bottom: 17rem;
     border-radius: 0rem 0.2rem 0.2rem 0rem;
     padding-right:0.5rem;
 }
@@ -131,9 +130,9 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    position: relative;
-    bottom: 3.1rem;
-    right: 1.1rem;
+    position: absolute;
+    bottom: 18.7rem;
+    left: 9.8rem;
     background-color: gainsboro;
 }
 
