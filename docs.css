@@ -5,6 +5,7 @@
     --header-text: white;
     --header-background: #1f1f27;
     --box-shadow: whitesmoke;
+    --text-white-color:white;
 }
 
 * {
@@ -210,8 +211,17 @@
 /* input extra ends here */
 
 
+/* cards extra css */
 
+.card-outerbox{
+    margin: 1rem 3rem 2.6rem 3rem;
+    display: flex;
+    justify-content: space-around;
+}
 
+.some-space{
+    margin-top: 2rem;
+}
 
 
 
