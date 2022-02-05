@@ -219,6 +219,7 @@
     justify-content: space-around;
 }
 
+/* card extra ends */
 .some-space{
     margin-top: 2rem;
 }
@@ -266,6 +267,13 @@
     .iframe-input {
         width: auto;
     }
+
+    .card-outerbox{
+        margin: 1rem 0rem 2.6rem 3rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+   
 
 }
 
