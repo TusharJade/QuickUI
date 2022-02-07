@@ -36,6 +36,10 @@
     margin: 0rem 2rem;
 }
 
+.caicn{
+    color: var(--header-whitecol);
+}
+
 .end-headside {
     display: flex;
     align-items: center;
