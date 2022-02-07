@@ -1,0 +1,63 @@
+:root {
+    --kahrido-bg: #2874f0;
+    --header-whitecol: white;
+}
+
+.simple-head {
+    background-color: var(--kahrido-bg);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-name {
+    color: var(--header-whitecol);
+    font-size: 1.3rem;
+    margin-left: 8rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: auto;
+}
+
+.header-cart {
+    text-decoration: none;
+    color: var(--header-whitecol);
+    font-weight: 500;
+}
+
+.head-login {
+    color: var(--kahrido-bg);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.3rem 1.25rem;
+    border: 1px solid;
+    background-color: var(--header-whitecol);
+    margin: 0rem 2rem;
+}
+
+.end-headside {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0rem 4rem;
+}
+
+
+@media (max-width:768px){
+    .header-name {
+        margin-left: 1rem;
+    }
+
+    .end-headside {
+        margin: 0rem 1rem 0rem 3rem;
+    }
+
+    .caicn {
+        display: none;
+    }
+
+    .head-login {
+        margin: 0rem 0rem 0rem 1rem;
+    }
+}

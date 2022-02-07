@@ -64,7 +64,7 @@
 
 .nav-link {
     list-style: none;
-    padding: 1.3rem 0rem;
+    padding: 1rem 0rem;
 
 }
 
@@ -224,7 +224,13 @@
     margin-top: 2rem;
 }
 
+/* Navigation starts */
 
+.header-outerbox {
+    margin: 1rem 3rem 2rem 3rem;
+}
+
+/* Navigation ends */
 
 
 
@@ -273,8 +279,6 @@
         display: flex;
         justify-content: flex-start;
     }
-   
-
 }
 
 /* media queries ends here */
