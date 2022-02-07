@@ -26,6 +26,10 @@
     font-weight: 500;
 }
 
+.cartic{
+    color: var(--header-whitecol);
+}
+
 .head-login {
     color: var(--kahrido-bg);
     font-weight: 500;
