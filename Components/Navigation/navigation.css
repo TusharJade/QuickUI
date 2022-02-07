@@ -14,20 +14,18 @@
 .header-name {
     color: var(--header-whitecol);
     font-size: 1.3rem;
-    margin-left: 8rem;
+    margin-left: 3rem;
     text-decoration: none;
     font-weight: 600;
     margin-right: auto;
 }
 
-.header-cart {
+.header-cart-color {
     text-decoration: none;
     color: var(--header-whitecol);
     font-weight: 500;
-}
-
-.cartic{
-    color: var(--header-whitecol);
+    font-size: 1.16rem;
+    padding: 0.5rem;
 }
 
 .head-login {
@@ -37,18 +35,14 @@
     padding: 0.3rem 1.25rem;
     border: 1px solid;
     background-color: var(--header-whitecol);
-    margin: 0rem 2rem;
-}
-
-.caicn{
-    color: var(--header-whitecol);
+    margin: 0rem 0rem 0rem 1rem;
 }
 
 .end-headside {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0rem 4rem;
+    margin: 0rem 2rem;
 }
 
 
@@ -59,10 +53,6 @@
 
     .end-headside {
         margin: 0rem 1rem 0rem 3rem;
-    }
-
-    .caicn {
-        display: none;
     }
 
     .head-login {
