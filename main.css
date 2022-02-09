@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+    --text-color: black;
+    --header-text: white;
+    --header-background: #1f1f27;
+    --box-shadow: whitesmoke;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 @import url("/Components/Alert/alert.css");
 @import url("/Components/Avatar/avatar.css");
 @import url("/Components/Badge/badge.css");
@@ -8,17 +22,5 @@
 @import url("/Components/Image/image.css");
 @import url("/Components/Input/input.css");
 @import url("/Components/Navigation/navigation.css");
-
-:root {
-    --text-color: black;
-    --header-text: white;
-    --header-background: #1f1f27;
-    --box-shadow: whitesmoke;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
+@import url("/Components/Lists/lists.css");
+@import url("/Components/Text-Utilities/text-utility.css");
