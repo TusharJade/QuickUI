@@ -1,6 +1,7 @@
 # QuickUI
- This is my Component Library, you can use the component of this library. 
 
+ This is my Component Library, you can use the components of this library to make sites quickly.
+ 
 ---
 
 ### Alert
