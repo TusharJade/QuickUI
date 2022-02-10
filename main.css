@@ -11,7 +11,7 @@
 @import url("/Components/Lists/lists.css");
 @import url("/Components/Text-Utilities/text-utility.css");
 
-/* :root {
+:root {
     --text-color: black;
     --header-text: white;
     --header-background: #1f1f27;
@@ -23,5 +23,5 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-} */
+}
 
