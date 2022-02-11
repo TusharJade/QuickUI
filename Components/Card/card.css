@@ -100,7 +100,7 @@
 .card-add-btn{
     font-size: 0.84rem;
     font-weight: 400;
-    margin: 0.9rem 0.55rem 0.45rem 0.55rem;
+    margin: 0.5rem 0.55rem 0rem 0.55rem;
     background-color: #002A46;
     color: var(--white-text-color) ;   
     padding: 0.4rem 2rem;
@@ -109,6 +109,7 @@
     border: 0;
     cursor: pointer;
 }
+
 
 /* Normal card starts here */
 
@@ -147,21 +148,32 @@
 
 /* Card dismiss css starts */
 
+.card-container-part{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 11rem;
+    height: 19rem;
+    box-shadow: 1px 2px 5px 1px rgb(196, 196, 196);
+    background-color: var(--white-text-color) ;
+}
+
 .card-dismiss{
-    color: white;
+    color: var(--dark-blue);
     border: none;
     background-color: none;
     border-radius: 50%;
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.3rem;
+    height: 1.3rem;
     align-items: center;
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 18.7rem;
-    left: 9.8rem;
-    background-color: gainsboro;
+    bottom: 17.77rem;
+    left: 9.7rem;
+    background-color: whitesmoke;
 }
+
 
 /* card dismiss css ends */
 
