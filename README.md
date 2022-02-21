@@ -2,7 +2,7 @@
 
  This is my Component Library, you can use the components of this library to make sites quickly.
  
- ### Please read these points by which you can easily understand the file structure of this repo.
+### Please read these points by which you can easily understand the file structure of this repo.
  
  - doc.css contains all repeated code which I used in all my HTML pages.
  - Inside Component folder you will find all my 10 components.
