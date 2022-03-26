@@ -1,0 +1,78 @@
+:root {
+    --light-blue: #007bff;
+    --logout-color: #337ab7;
+}
+
+.modal-box {
+    width: 25rem;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 3px 1px var(--gainsboro);
+}
+
+.modal-headbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid var(--gainsboro);
+}
+
+.modal-headtext {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.modal-text {
+    padding: 2.5rem 1rem;
+    border-bottom: 1px solid var(--gainsboro);
+}
+
+.modal-footer {
+    padding: 0.8rem 1rem;
+    display: flex;
+    justify-content: right;
+
+}
+
+.modal-btn-close {
+    border: none;
+    background-color: var(--grey);
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    margin: 0rem 0.4rem;
+}
+
+.modal-btn-save {
+    border: none;
+    background-color: var(--light-blue);
+    color: var(--text-white-color);
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.modal-box-delet{
+    width: 22rem;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 3px 1px var(--gainsboro);
+}
+
+.lock-icon{
+    font-size: 1rem;
+}
+
+.modal-btn-logout{
+    border: none;
+    background-color: var(--logout-color);
+    color: var(--text-white-color);
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.modal-logout-footer{
+   padding: 0.7rem 1rem;
+   text-align: right;
+}
