@@ -6,6 +6,8 @@
     --header-background: #1f1f27;
     --box-shadow: whitesmoke;
     --text-white-color:white;
+    --grey: grey;
+    --gainsboro: gainsboro;
 }
 
 * {
@@ -53,13 +55,16 @@
 
 .navigation {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
-    width: 10rem;
+    width: 11rem;
     box-shadow: 1px 2px 2px 3px var(--box-shadow);
     border-bottom-right-radius: 0.5rem;
     position: fixed;
     top: 4.36rem;
+    overflow-y: scroll;
+    height: 33rem;
+    
 }
 
 .nav-link {
@@ -267,6 +272,13 @@ margin: 2rem 3.3rem;
 
 /* List ends */
 
+/* modal extra css */
+
+.modal-outerbox{
+    margin: 2rem 3rem;
+}
+
+/* modal extra css ends */
 
 /* media queries */
 
