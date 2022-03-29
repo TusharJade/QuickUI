@@ -1,0 +1,41 @@
+:root {
+    --purple: rgb(177, 23, 177);
+    --black-snackbar : #333333;
+    --success-snackbar:  rgb(6, 134, 6);
+}
+
+.snackbar-box {
+    background-color: var(--black-snackbar);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    width: 27rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snackbar-text {
+    color: var(--text-white-color);
+}
+
+.cross {
+    color: var(--text-white-color);
+}
+
+.retry {
+    color: var(--purple);
+}
+
+.snackbar-success{
+    background-color:var(--success-snackbar);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    width: 27rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snack-outerbox{
+    padding: 2rem 3rem;
+}
