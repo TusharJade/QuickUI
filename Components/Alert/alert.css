@@ -1,11 +1,3 @@
-:root {
-    --primary-alert: #6e6efa;
-    --warning-alert: #f8af41;
-    --success-alert: rgb(89, 194, 89);
-    --danger-alert: rgb(233, 67, 67);
-}
-
-
 .alert {
     font-weight: 500;
     font-size: 0.88rem;

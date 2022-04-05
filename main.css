@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap'); */
 
 @import url("/Components/Alert/alert.css");
 @import url("/Components/Avatar/avatar.css");
@@ -10,12 +10,35 @@
 @import url("/Components/Navigation/navigation.css");
 @import url("/Components/Lists/lists.css");
 @import url("/Components/Text-Utilities/text-utility.css");
+@import url("/Components/Modal/modal.css");
+@import url("/Components/Snackbar/snackbar.css");
+@import url("/Components/Grid/grid.css");
+@import url("/Components/Ratings/ratings.css");
+
 
 :root {
     --text-color: black;
     --header-text: white;
     --header-background: #1f1f27;
     --box-shadow: whitesmoke;
+    --text-white-color:white;
+    --grey: grey;
+    --gainsboro: gainsboro;
+    --purple: rgb(177, 23, 177);
+    --black-snackbar : #333333;
+    --success-snackbar:  rgb(6, 134, 6);
+    --kahrido-bg: #2874f0;
+    --header-whitecol: white;
+    --light-blue: #007bff;
+    --logout-color: #337ab7;
+    --grid-bg: #333333;
+    --white:white;
+    --white-text-color: white;
+    --dark-blue: #002A46;
+    --primary-alert: #6e6efa;
+    --warning-alert: #f8af41;
+    --success-alert: rgb(89, 194, 89);
+    --danger-alert: rgb(233, 67, 67);
 }
 
 

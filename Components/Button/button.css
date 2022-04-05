@@ -8,77 +8,77 @@
 
 .btn-primary {
     background-color: #6e6efa;
-    color: white;
+    color: var(--white);
 }
 
 .btn-signin {
     background-color: rgb(89, 194, 89);
-    color: white;
+    color: var(--white);
 }
 
 .btn-signout {
     background-color: rgb(233, 67, 67);
-    color: white;
+    color: var(--white);
 }
 
 .btn-login {
     background-color: rgb(37, 36, 36);
-    color: white;
+    color: var(--white);
 }
 
 .btn-out-primary {
     color: #6e6efa;
-    background-color: white;
+    background-color: var(--white);
 }
 
 .btn-out-primary:hover {
     background-color: #6e6efa;
-    color: white;
+    color: var(--white);
 }
 
 .btn-out-signin {
     color: rgb(89, 194, 89);
-    background-color: white;
+    background-color: var(--white);
 }
 
 .btn-out-signin:hover {
     background-color: rgb(89, 194, 89);
-    color: white;
+    color: var(--white);
 }
 
 .btn-out-signout {
     color: rgb(233, 67, 67);
-    background-color: white;
+    background-color: var(--white);
 }
 
 .btn-out-signout:hover {
     background-color: rgb(233, 67, 67);
-    color: white;
+    color: var(--white);
 }
 
 .btn-out-login {
     color: rgb(37, 36, 36);
-    background-color: white;
+    background-color: var(--white);
 }
 
 .btn-out-login:hover {
     background-color: rgb(37, 36, 36);
-    color: white;
+    color: var(--white);
 }
 
 .icn-btn-cart {
-    color: white;
+    color: var(--white);
     background-color: #6e6efa;
 }
 
 .icn-btn-delete {
-    color: white;
+    color: var(--white);
     background-color: rgb(233, 67, 67);
 }
 
 .btn-cl-anchor {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 .click-cl {
@@ -94,7 +94,7 @@
     height: 3.5rem;
     border-radius: 50%;
     border: 1px solid;
-    color: white;
+    color: var(--white);
     cursor: pointer;
 }
 

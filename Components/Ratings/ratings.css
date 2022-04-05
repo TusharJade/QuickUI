@@ -1,5 +1,5 @@
 .filled{
-    color: gray ;
+    color: var(--grey) ;
 }
 
 .rating-outdiv{

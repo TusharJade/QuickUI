@@ -7,7 +7,7 @@
     list-style: none;
     padding: 0.5rem 1.5rem;
     margin: 0.5rem 1rem;
-    background-color: gainsboro;
+    background-color: var(--gainsboro);
     width: max-content;
 }
 
@@ -27,13 +27,13 @@
     display: flex;
     flex-direction: column;
     width: 16rem;
-    box-shadow: 1px 1px 5px 2px gainsboro;
+    box-shadow: 1px 1px 5px 2px var(--gainsboro);
 }
 
 .stacked-container{
     display: flex;
-    background-color: whitesmoke;
-    box-shadow: 1px 1px 3px 1px gainsboro;
+    background-color: var(--box-shadow);
+    box-shadow: 1px 1px 3px 1px var(--gainsboro);
     padding: 0.3rem 0rem;
 }
 
@@ -49,12 +49,16 @@
 
 .all-contain {
     width: 15rem;
-    box-shadow: 1px 1px 1px 1px gainsboro;
+    box-shadow: 1px 1px 1px 1px var(--gainsboro);
 }
 
 .category-name {
     font-size: 0.85rem;
     font-weight: 500;
+}
+
+.category-name :hover{
+    cursor: pointer;
 }
 
 .main-category {
@@ -66,7 +70,7 @@
     padding: 0.8rem 1.5rem;
     font-weight: 700;
     font-size: 1.1rem;
-    box-shadow: 0.8px 0.8px 0.2px 0.6px gainsboro;
+    box-shadow: 0.8px 0.8px 0.2px 0.6px var(--gainsboro);
 }
 
 .category-list {

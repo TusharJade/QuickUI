@@ -1,11 +1,4 @@
-:root{
-    --white-text-color: white;
-    --dark-blue: #002A46;
-}
-
-
-/* Simple vertical card */
-
+ /* Simple vertical card  */
 .card-container-simple{
     display: flex;
     flex-direction: column;
@@ -101,13 +94,14 @@
     font-size: 0.84rem;
     font-weight: 400;
     margin: 0.5rem 0.55rem 0rem 0.55rem;
-    background-color: #002A46;
     color: var(--white-text-color) ;   
     padding: 0.4rem 2rem;
     border-radius:0.3rem;
     text-align: center;
     border: 0;
     cursor: pointer;
+    background-color: white;
+    background-color: #002A46;
 }
 
 
@@ -248,7 +242,7 @@
     width: 20rem;
     height: 20rem;
     position: relative;
-    color: white;
+    color: var(--white-text-color);
 }
 
 .image-over-container::before{

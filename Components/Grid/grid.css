@@ -1,7 +1,3 @@
-:root{
-    --grid-bg: #333333;
-}
-
 .griditems-two {
     display: grid;
     grid-template-columns: 1fr 1fr;

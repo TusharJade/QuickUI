@@ -11,7 +11,7 @@
  position: relative;
  bottom: 1.3rem;
  left: 3rem;
- border: 1.5px solid white;
+ border: 1.5px solid var(--white);
 }
 
 .online{
@@ -19,14 +19,14 @@
 }
 
 .offline{
-    background-color: grey;
+    background-color: var(--grey);
 }
 
 .with-num{
     text-align: center;
     font-size: 0.6rem;
     background-color: rgb(255, 38, 0);
-    color: white;
+    color: var(--white);
     font-family: 600;
 }
 
@@ -38,11 +38,11 @@
     text-align: center;
     font-size: 0.6rem;
     background-color: rgb(255, 38, 0);
-    color: white;
+    color: var(--white);
     width: 14px;
     height: 15px;
     border-radius: 50%;
-    border: 1.5px solid white;
+    border: 1.5px solid var(--white);
     position: relative;
     bottom: 1.94rem;
     left: 1.2rem;
