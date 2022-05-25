@@ -1,0 +1,25 @@
+.griditems-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--grid-bg);
+    width: 40rem;
+}
+
+.grid-item {
+    box-shadow: 1px 1px 2px 1px var(--gainsboro);
+    height: 4rem;
+    margin: 0.5rem;
+    text-align: center;
+    background-color: var(--box-shadow);
+}
+
+.grid-outerbox {
+    margin: 2rem 3rem;
+}
+
+.griditems-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--grid-bg);
+    width: 40rem;
+}
